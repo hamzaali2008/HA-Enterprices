@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7f4;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #14532d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+/* Navigation */
+nav {
+    background: #166534;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d9f99d;
+}
+
+/* Hero section */
+.hero {
+    padding: 70px 20px;
+    text-align: center;
+    background: #dcfce7;
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: #14532d;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background: #15803d;
+    color: white;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background: #166534;
+}
+
+/* Sections */
+section {
+    padding: 45px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #14532d;
+    margin-bottom: 20px;
+}
+
+/* Service cards */
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 260px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #00000012;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #15803d;
+    margin-bottom: 10px;
+}
+
+/* Contact section */
+#contact {
+    background: #e5e7eb;
+}
+
+/* Footer */
+footer {
+    background: #14532d;
+    color: white;
+    padding: 18px;
+    text-align: center;
+}
+
+/* Mobile responsive design */
+@media (max-width: 500px) {
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+}
